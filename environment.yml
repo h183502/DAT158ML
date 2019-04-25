@@ -1,0 +1,23 @@
+name: dat158
+dependencies:
+- python >= 3.6.0
+- pip
+- ipython
+- ipywidgets
+- jupyter
+- git
+- numpy
+- matplotlib
+- pandas
+- scikit-learn >= 0.20
+- ipykernel
+- conda-forge::jupyter_contrib_nbextensions
+- conda-forge::jupyterlab
+- scipy
+- seaborn
+- pip:
+  - pip
+  - kaggle
+  - xlrd
+  - eli5
+  - pdpbox
