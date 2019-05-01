@@ -6,9 +6,11 @@ This is the repo of the course repo for the 2019 version of [DAT158: Machine lea
 
 **Go to [Set up your computer](setup.md) to get started**
 
-A tip: to browse through the course notebooks interactively without having to install any software, you can use the course Binder:
+To browse through the course notebooks interactively without having to install any software, you can use our Binder:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alu042/DAT158ML/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alu042/DAT158ML/master)<br>
+
+If you just want to view the notebooks, you can use GitHubs notebook viewer by simply clicking on the notebooks. Alternatively, an often more convenient alternative is to use nbviewer https://nbviewer.jupyter.org. 
 
 # Notebooks
 The course is based on Jupyter Notebook, a web-based framework to write and present code-based projects. Have a look at https://youtu.be/HW29067qVWk and https://youtu.be/2eCHD6f_phE for short introductions to Jupyter Notebooks.
