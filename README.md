@@ -16,4 +16,5 @@ The course is based on Jupyter Notebook, a web-based framework to write and pres
 Throughout the course you will work with notebooks containing various material and coding exercises. _It is recommended to make copies of the course notebooks before editing_. You can follow the naming convention `my_[name_of_original_notebook].ipynb`.
 
 # Get started
+* Go thorugh the instructions at [Set up your computer](setup.md)
 * [Python, Numpy, Pandas, Matplotlib, Scikit-learn](0.0-test.ipynb): run through this notebook to test whether your software environment is correctly set up. 
