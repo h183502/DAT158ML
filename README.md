@@ -6,9 +6,11 @@ This is the repo of the course repo for the 2019 version of [DAT158: Machine lea
 
 **Go to [Set up your computer](setup.md) to get started**
 
-A tip: to browse through the course notebooks interactively without having to install any software, you can use the course Binder:
+To browse through the course notebooks interactively without having to install any software, you can use our Binder:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alu042/DAT158ML/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alu042/DAT158ML/master)<br>
+
+If you just want to view the notebooks, you can use GitHubs notebook viewer by simply clicking on the notebooks. Alternatively, an often more convenient alternative is to use nbviewer https://nbviewer.jupyter.org. 
 
 # Notebooks
 The course is based on Jupyter Notebook, a web-based framework to write and present code-based projects. Have a look at https://youtu.be/HW29067qVWk and https://youtu.be/2eCHD6f_phE for short introductions to Jupyter Notebooks.
@@ -16,4 +18,5 @@ The course is based on Jupyter Notebook, a web-based framework to write and pres
 Throughout the course you will work with notebooks containing various material and coding exercises. _It is recommended to make copies of the course notebooks before editing_. You can follow the naming convention `my_[name_of_original_notebook].ipynb`.
 
 # Get started
+* Go thorugh the instructions at [Set up your computer](setup.md)
 * [Python, Numpy, Pandas, Matplotlib, Scikit-learn](0.0-test.ipynb): run through this notebook to test whether your software environment is correctly set up. 
