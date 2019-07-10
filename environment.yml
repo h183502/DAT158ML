@@ -13,6 +13,7 @@ dependencies:
 - ipykernel
 - conda-forge::jupyter_contrib_nbextensions
 - conda-forge::jupyterlab
+- conda-forge::category_encoders
 - scipy
 - seaborn
 - pip:
