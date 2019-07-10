@@ -22,4 +22,5 @@ dependencies:
   - xlrd
   - eli5
   - pdpbox
+  - nbidme
   
