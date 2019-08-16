@@ -52,7 +52,11 @@ Go through the notebook `0.0-test.ipynb` in the `notebooks` folder:
 cd notebooks
 jupyter notebook
 ```
-You can alternatively use [JupyterLab](https://github.com/jupyterlab/jupyterlab): `jupyter lab`.
+You can alternatively use [JupyterLab](https://github.com/jupyterlab/jupyterlab): 
+```bash
+cd notebooks
+jupyter lab
+```
 
 ## Updating
 The code and environment will be updated throughout the course. Run the following commands regularly: 
