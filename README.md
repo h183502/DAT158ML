@@ -6,10 +6,14 @@ This is the repo of the course repo for the 2019 version of [DAT158: Machine lea
 
 **Go to [Set up your computer](setup.md) to get started**
 
-To browse through the course notebooks non-interactively, use jupyter.org's nbviewer by clicking [here](https://nbviewer.jupyter.org/github/alu042/DAT158ML/blob/master/notebooks.ipynb). (Simply clicking on the notebooks in the repository will display them using GitHubs notebook viewer, but that's typically slower, prone to time-outs and less nice than nbviewer.)
+To browse through the course notebooks non-interactively, use jupyter.org's nbviewer by clicking [here](https://nbviewer.jupyter.org/github/alu042/DAT158ML/blob/master/notebooks.ipynb).
+
+<a href="https://nbviewer.jupyter.org/github/alu042/DAT158ML/blob/master/notebooks.ipynb">![](./assets/nbviewer.png)</a>
+
+ (Simply clicking on the notebooks in the repository will display them using GitHubs notebook viewer, but that's typically slower, prone to time-outs and less nice than nbviewer.)
 
 
-To browse through the notebooks _interactively_, without having to install any software, you can use our Binder:
+To browse through the notebooks **interactively**, without having to install any software, you can use our Binder:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alu042/DAT158ML/master)<br>
 
@@ -21,4 +25,4 @@ Throughout the course you will work with notebooks containing various material a
 
 # Get started
 * Go thorugh the instructions at [Set up your computer](setup.md)
-* [Python, Numpy, Pandas, Matplotlib, Scikit-learn](0.0-test.ipynb): run through this notebook to test whether your software environment is correctly set up. 
+* [Python, Numpy, Pandas, Matplotlib, Scikit-learn](0.0-test.ipynb): clone the repository and run through this notebook locally to test whether your software environment is correctly set up. 
