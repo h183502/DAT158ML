@@ -69,3 +69,4 @@ conda env update
 
 
 # Troubleshooting
+* If you're on a Mac and the `conda env update` command fails with a `gcc` error, install XCode through the App store and use it to install **command line tools**. 
