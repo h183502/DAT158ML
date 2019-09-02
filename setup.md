@@ -47,14 +47,12 @@ python -m ipykernel install --user --name dat158 --display-name "DAT158"
 ```
 
 ### Test your installation
-Go through the notebook `0.0-test.ipynb` in the `notebooks` folder:
+Go through the notebook `0.0-test.ipynb`:
 ```bash
-cd notebooks
 jupyter notebook
 ```
 You can alternatively use [JupyterLab](https://github.com/jupyterlab/jupyterlab): 
 ```bash
-cd notebooks
 jupyter lab
 ```
 
