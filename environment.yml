@@ -16,6 +16,7 @@ dependencies:
 - conda-forge::category_encoders
 - scipy
 - seaborn
+- hyperopt
 - pip:
   - pip >= 19.0
   - kaggle
