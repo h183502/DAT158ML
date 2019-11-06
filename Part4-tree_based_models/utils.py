@@ -104,3 +104,61 @@ def plot_decision_boundary(clf, X, y, legend=False, plot_training=True, ax=None,
     ax.set_title("Decision boundary")
     
     return ax
+
+
+
+import pandas as pd
+import numpy as np
+
+from sklearn.preprocessing import OrdinalEncoder
+from sklearn.compose import make_column_transformer
+from sklearn.preprocessing import LabelEncoder
+
+def prepare_hospital(fn):
+    """
+    Input: the filename of the hospital data set
+    Output: A preprocessed dataframe 
+    """
+    
+    LOS = pd.read_csv(fn)
+    
+    # Add a feature: number of issues
+    issues = ['dialysisrenalendstage',
+             'asthma',
+             'irondef',
+             'pneum',
+             'substancedependence',
+             'psychologicaldisordermajor',
+             'depress',
+             'psychother',
+             'fibrosisandother',
+             'malnutrition',
+             'hemo']
+    
+    LOS.insert(len(LOS.columns)- 1, 'numberofissues', LOS[issues].astype('int').sum(axis=1))
+    
+    categorical = ['rcount', 'gender', 'facid']
+    
+    numerical = [col for col in LOS.columns if LOS[col].dtype in ['int64', 'float64']]
+    dates = ['vdate', 'discharged']
+    
+    transformer = make_column_transformer(
+        (categorical, OrdinalEncoder()),
+        remainder='passthrough')
+    
+    LOS_enc = transformer.fit_transform(LOS)
+    
+    columns = ['rcount', 'gender', 'facid'] + list(LOS.columns.drop(['rcount', 'gender', 'facid']))
+    
+    LOS = pd.DataFrame(data=LOS_enc, columns=columns)
+    
+    LOS[numerical] = LOS[numerical].astype('float32')
+    
+    for datecol in dates:
+        LOS[datecol] = pd.to_datetime(LOS[datecol])
+        
+    lbl = LabelEncoder()
+    for catcol in categorical:
+        LOS[catcol] = lbl.fit_transform(LOS[catcol])
+        
+    return LOS
